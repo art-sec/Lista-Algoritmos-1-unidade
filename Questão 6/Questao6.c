@@ -2,13 +2,13 @@
 #include <locale.h>
 
 int main() {
-	// Declaração das váriaveis utilizadas no código
+	// DeclaraÃ§Ã£o das vÃ¡riaveis utilizadas no cÃ³digo
 	float pi, raio;
 	// Declara o valor aproximado de pi
 	pi = 3.14;
-	// Inserção do valor do raio da circunfêrencia
-	printf("Insira o raio da circunfêrencia: \n");
+	// InserÃ§Ã£o do valor do raio da circunfÃªrencia
+	printf("Insira o raio da circunfÃªrencia: \n");
 	scanf("%f", &raio);
-	// Exibe o valor da circunfêrencia e calcula o valor simultaneamente
-	printf("O valor da circunfêrencia é: %2f", pi * 2 * raio);
+	// Exibe o valor da circunfÃªrencia e calcula o valor simultaneamente
+	printf("O valor da circunfÃªrencia Ã©: %.2f", pi * 2 * raio);
 }
