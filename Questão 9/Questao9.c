@@ -1,15 +1,14 @@
 #include <stdio.h>
-#include <math.h>
 #include <locale.h>
 
 int main() {
-	// Importação de biblioteca para tornar possível a acentuação de palavras na língua portuguesa
+	// ImportaÃ§Ã£o de biblioteca para tornar possÃ­vel a acentuaÃ§Ã£o de palavras na lÃ­ngua portuguesa
 	setlocale(LC_ALL, "portuguese");
-	// Declaração das váriavel utilizada ao decorrer do código
+	// DeclaraÃ§Ã£o das vÃ¡riavel utilizada ao decorrer do cÃ³digo
 	int numero;
-	// Inserção de valor nas váriavel
-	printf("Insira o valor do número:");
+	// InserÃ§Ã£o de valor nas vÃ¡riavel
+	printf("Insira o valor do nÃºmero:");
 	scanf("%d", &numero);
-	// Exibe o quadrado e o cubo do número apresentado
-	printf("O quadrado do número: %d, o cubo do número: %d", numero * numero, numero * numero * numero);
+	// Exibe o quadrado e o cubo do nÃºmero apresentado
+	printf("O quadrado do nÃºmero: %d, o cubo do nÃºmero: %d", numero * numero, numero * numero * numero);
 }
