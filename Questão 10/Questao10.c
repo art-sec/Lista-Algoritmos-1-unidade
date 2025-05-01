@@ -2,28 +2,26 @@
 #include <locale.h>
 
 int main() {
-    // ImportaÁ„o de biblioteca para permitir acentuaÁ„o correta
+    // Importa√ß√£o de biblioteca para permitir acentua√ß√£o correta
     setlocale(LC_ALL, "Portuguese");
-    // DeclaraÁ„o das vari·veis utilizadas
+    // Declara√ß√£o das vari√°veis utilizadas
     int percentualDesconto;
     float horasTrabalhadas, valorHoraTrabalhada, salarioBruto, totalDesconto, salarioLiquido;
-    // InserÁ„o das horas trabalhadas e valor por hora
+    // Inser√ß√£o das horas trabalhadas e valor por hora
     printf("Insira as horas trabalhadas: ");
     scanf("%f", &horasTrabalhadas);
     printf("Insira o valor das horas trabalhadas: ");
     scanf("%f", &valorHoraTrabalhada);
-    // C·lculo do sal·rio bruto
+    // C√°lculo do sal√°rio bruto
     salarioBruto = horasTrabalhadas * valorHoraTrabalhada;
-    // InserÁ„o do percentual de desconto
+    // Inser√ß√£o do percentual de desconto
     printf("Insira o percentual de desconto: ");
     scanf("%d", &percentualDesconto);
-    // C·lculo do total de desconto e sal·rio lÌquido
+    // C√°lculo do total de desconto e sal√°rio l√≠quido
     totalDesconto = salarioBruto * (percentualDesconto / 100.0);
     salarioLiquido = salarioBruto - totalDesconto;
-    // ExibiÁ„o dos resultados
-    printf("O sal·rio bruto È: %.2f\n", salarioBruto);
-    printf("O total de desconto È: %.2f\n", totalDesconto);
-    printf("O sal·rio lÌquido È: %.2f\n", salarioLiquido);
-
-    return 0;
+    // Exibi√ß√£o dos resultados
+    printf("O sal√°rio bruto √©: %.2f\n", salarioBruto);
+    printf("O total de desconto √©: %.2f\n", totalDesconto);
+    printf("O sal√°rio l√≠quido √©: %.2f\n", salarioLiquido);
 }
