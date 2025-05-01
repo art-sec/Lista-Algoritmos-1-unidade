@@ -13,14 +13,14 @@ int main() {
 	scanf("%d", &b);
 	// Exibe os valores das váriaveis antes da troca dos valores
 	printf("O valor antes da troca:\n");
-	printf("A = %d", a);
-	printf("B = %d", b);
+	printf("A = %d\n", a);
+	printf("B = %d\n", b);
 	// Troca os valores utilizando uma váriavel temporária
 	temporario = a;
 	a = b;
 	b = temporario;
 	// Exibe os valores após a troca de valores das váriaveis
 	printf("O valor após a troca:\n");
-	printf("A = %d", a);
-	printf("B = %d", b);
+	printf("A = %d\n", a);
+	printf("B = %d\n", b);
 }
